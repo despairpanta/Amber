@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background: black;
 }
 
 body {
@@ -29,5 +30,5 @@ font-size: 20px;
 }
 
 .article {
-  text-align: center;
+ 
 }
