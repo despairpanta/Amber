@@ -21,10 +21,16 @@ header div {
   top: 0;
 }
 
+.logo-header {
+  margin: 0px 0px;
+}
+
 h2 {
+  margin: 30px 30px;
   font-family: basic-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -43,6 +49,7 @@ strong {
 
 .header-img {
   width: 40%;
+  margin: 20px 107px;
 }
 
 .article {
@@ -76,15 +83,30 @@ strong {
 .costumer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  width: 150%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
 }
 
 .footer-container img { 
-  width: 10%;
+  width: 25%;
 }
 
 .footer-container {
   display: flex;
-
+  flex-direction: column;
+  padding: 20px 85px;
+  align-items: flex-start;
+  align-content: center;
 }
 
 .homepage-footer {
@@ -92,6 +114,7 @@ strong {
 }
 
 .link-mail {
+  margin: 0 115px;
   font-family: basic-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
