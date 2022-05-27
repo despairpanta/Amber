@@ -53,10 +53,6 @@ strong {
   margin: 20px 107px;
 }
 
-.article p{
-  
-}
-
 .link-50,
 .link-60,
 .link-70 {
@@ -151,7 +147,20 @@ strong {
 }
 
 .box-presentation-fifthies {
+  margin: 0px 18px;
   background-image: url(../img/img_background_50.png);
   background-repeat: no-repeat;
 }
 
+/* 60's */
+
+.sixthies-footer,
+.sixthies-header{
+  background: #eab60b;
+}
+
+.box-presentation-sixthies {
+  margin: 0px 18px;
+  background-image: url(../img/img_background_60.png);
+  background-repeat: no-repeat;
+}
