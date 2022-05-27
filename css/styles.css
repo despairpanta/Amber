@@ -119,10 +119,11 @@ strong {
 .button {
   background: none;
   position: fixed;
-  width: 20%;
-  right: 38px;
-  top: 8px;
+  width: 60px;
+  right: 50%;
+  top: 18px;
   z-index: 2;
+  TRANSFORM: translate(166px);
 }
 
 .reseller-page {
