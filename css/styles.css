@@ -10,7 +10,7 @@ body {
 }
 
 .welcome-picture {
-padding: 0px 45px;
+padding: 20px 45px;
 }
 
 header div {
@@ -19,10 +19,6 @@ header div {
   flex-direction: row;
   position: sticky;
   top: 0;
-}
-
-.logo-header {
-  margin: 0px 0px;
 }
 
 h2 {
@@ -61,7 +57,7 @@ strong {
 
 .link-50 {
   background: #839bbd;
-  margin: -4px 0px;
+  margin: -4px 0;
   padding: 30px 122px;
 }
 
@@ -91,7 +87,7 @@ strong {
   width: 150%;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0px;
+  margin: 50px 0;
 }
 
 .footer-container img { 
@@ -147,7 +143,7 @@ strong {
 }
 
 .box-presentation-fifthies {
-  margin: 0px 18px;
+  margin: 0 18px;
   background-image: url(../img/img_background_50.png);
   background-repeat: no-repeat;
 }
@@ -160,7 +156,21 @@ strong {
 }
 
 .box-presentation-sixthies {
-  margin: 0px 18px;
+  margin: 0 18px;
   background-image: url(../img/img_background_60.png);
+  background-repeat: no-repeat;
+}
+
+/* 70's */
+
+.seventhies-footer,
+.seventhies-header{
+  background: #81a7a1;
+}
+
+.box-presentation-seventhies {
+  margin: 0 18px;
+  padding: 27px 40px;
+  background-image: url(../img/img_background_70.png);
   background-repeat: no-repeat;
 }
