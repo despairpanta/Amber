@@ -35,7 +35,8 @@ h2 {
 }
 
 p {
-  padding: 0px 0px ;
+  margin: 65px 30px;
+  font-size: 15px;
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -52,8 +53,8 @@ strong {
   margin: 20px 107px;
 }
 
-.article {
- 
+.article p{
+  
 }
 
 .link-50,
@@ -122,3 +123,26 @@ strong {
   text-decoration: none;
   text-align: center;
 }
+
+.button {
+  background: none;
+  position: fixed;
+  width: 20%;
+  right: 38px;
+  top: 8px;
+  z-index: 2;
+}
+
+/* 50'S */
+
+.fifthies-footer,
+.fifthies-header{
+  background: #839bbd;
+}
+
+.box-presentation-fifthies {
+  width: 50%;
+  background-image: url(../img/img_background_50.png);
+  background-repeat: no-repeat;
+}
+
